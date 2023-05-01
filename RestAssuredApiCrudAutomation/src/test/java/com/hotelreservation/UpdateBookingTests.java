@@ -9,22 +9,6 @@ import static io.restassured.RestAssured.given;
 
 public class UpdateBookingTests extends BaseTests{
 
-//    curl -X PUT \
-//    https://restful-booker.herokuapp.com/booking/1 \
-//            -H 'Content-Type: application/json' \
-//            -H 'Accept: application/json' \
-//            -H 'Cookie: token=abc123' \
-//            -d '{
-//            "firstname" : "James",
-//            "lastname" : "Brown",
-//            "totalprice" : 111,
-//            "depositpaid" : true,
-//            "bookingdates" : {
-//        "checkin" : "2018-01-01",
-//                "checkout" : "2019-01-01"
-//    },
-//            "additionalneeds" : "Breakfast"
-//}'
     @Test
     public void updateTest(){
 
